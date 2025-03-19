@@ -1,6 +1,7 @@
 #!/bin/bash
 
+x=10
 w=4
 
-echo "value is $w"
+echo "value is $((w+x))"
 echo "hello world"
